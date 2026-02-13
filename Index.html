@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Clark | 3D Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Emily <span>Clark</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="content">
+            <h4>Hello, I'm</h4>
+            <h1>Emily Clark</h1>
+            <h3>And I'm a <span class="typing-text"></span></h3>
+            <p class="desc">Hi, I'm Emily Clark, a passionate front-end developer specializing in translating design concepts into seamless and interactive web experiences.</p>
+            
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            
+            <a href="#" class="btn-main">Download CV</a>
+        </div>
+
+        <div class="image-box" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+            <div class="circle">
+                <img src="Rasm.jpg" alt="Emily Clark">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div id="canvas-container"></div>
+        <div class="about-container" data-tilt data-tilt-perspective="1000">
+            <div class="shape-bg">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="about-content">
+                <h1>ABOUT ME</h1>
+                <p>Dizayn sohasida 5 yildan ortiq tajribaga ega bo'lgan holda, men brending, veb-dizayn va foydalanuvchi tajribasi (UX) bo'yicha mutaxassisman. Keling, birgalikda ajoyib narsa yaratamiz.</p>
+                <a href="#" class="btn-gradient">CONTACT ME</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
